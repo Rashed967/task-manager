@@ -8,6 +8,8 @@
     
     --primary-color : #7361BB;
     --white-color : #fff;
+    --info-color : #8A8A8A;
+    --danger-color : #D45F3A;
 }
 
 #task-page-header{
@@ -84,4 +86,44 @@
     justify-content: space-between;
     color: var(--white-color);
 
+}
+
+.table-row{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color: var(--white-color);
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 5px;
+}
+
+.edit-delete-btn{
+    padding: 8px;
+    font-size: 13px;
+}
+
+.btn-td{
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding: 5px;
+    gap: 15px;
+    /* background-color: var(--white-color); */
+    
+}
+
+#edit-btn{
+    background-color: var(--info-color);
+    color: var(--white-color);
+}
+
+#dlt-btn{
+    background-color: var(--danger-color);
+    color: var(--white-color);
 }
