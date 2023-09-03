@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+   <header id="task-page-header">
+    <h1>Task Manager</h1>
+   </header>
+    
+   <!-- task area  -->
+   <section id="task-area">
+    <div id="task-create-area">
+        <h3 class="create-task-title">Create a task</h3>
+        <form>
+            <label for="taskName">Task Name</label><br>
+            <input type="text" name="taskName" id="taskName" class="taskInput" placeholder="Your task name">
+            <br>
+
+            <input type="number" name="taskDate" id="taskDate" class="taskInput" placeholder="Your task name">
+            <br>
+            <input id="add-task-btn" type="button" value="Add">
+        </form>
+    </div>
+
+    <!-- task board area section html  -->
+
+    <div id="task-board-area">
+        <h3 id="task-board-title">Task Board</h3>
+        <div id="task-board-table-header-container">
+            <h5>Task Name</h5>
+            <h5>Task Status</h5>
+        </div>
+    </div>
+   </section>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

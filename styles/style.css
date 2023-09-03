@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+:root{
+    
+    --primary-color : #7361BB;
+    --white-color : #fff;
+}
+
+#task-page-header{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 15px 0;
+    color: var(--white-color);
+}
+
+#task-page-title{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* task area styles  */
+
+#task-area{
+    margin-top: 80px;
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+#task-create-area, #task-board-area{
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    padding: 10px;
+}
+.create-task-title, #task-board-title{
+    padding: 15px 70px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.taskInput{
+    margin-top: 8px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 4px 6px;
+    font-size: 12px;
+    border-color: var(--primary-color);
+}
+
+#add-task-btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 3px 12px;
+    float: right;
+}
+
+
+/* task board section styles  */
+
+#task-board-title{
+
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+#task-board-area{
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 4px;
+    width: 25%;
+}
+
+#task-board-table-header-container{
+    display: flex;
+    justify-content: space-between;
+    color: var(--white-color);
+
+}
