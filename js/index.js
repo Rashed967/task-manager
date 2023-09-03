@@ -5,3 +5,8 @@ const tasks = [
         taskStatus : "Completed"
     }
 ]
+
+
+document.getElementById("add-task-btn").addEventListener('click', (e) => {
+    console.log();
+})
