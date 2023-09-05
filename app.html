@@ -15,14 +15,13 @@
    <section id="task-area">
     <div id="task-create-area">
         <h3 class="create-task-title">Create a task</h3>
-        <form>
+        <form id="taskForm">
             <label for="taskName">Task Name</label><br>
             <input type="text" name="taskName" id="taskName" class="taskInput" placeholder="Your task name">
             <br>
 
-            <input type="number" name="taskDate" id="taskDate" class="taskInput" placeholder="Your task name">
-            <br>
-            <input id="add-task-btn" type="button" value="Add">
+        
+            <input id="add-task-btn" type="submit" value="Add">
         </form>
     </div>
 
@@ -37,11 +36,10 @@
             <h5></h5>
         </div>
             <div>
-                <table>
-                    <tr class="table-row">
+                <table id="taskBoard">
+                    <!-- <tr class="table-row">
                             <td>Reading Book</td>
                             <td>Incomplete</td>
-                            <!-- <td>Incomplete</td> -->
                             <td><input type="checkbox" name="" id=""></td>
                     </tr>
                     <tr>
@@ -51,7 +49,7 @@
                             <button  id="edit-btn" class="edit-delete-btn">E</button>
                            </div>
                         </td>
-                    </tr>
+                    </tr> -->
                 </table>
             </div>
     </div>
